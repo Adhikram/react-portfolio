@@ -1,0 +1,284 @@
+@media all and (max-width: 615px) {
+  body {
+    font-size: 6px;
+  }
+  #pan {
+    font-size: 10px;
+  }
+  #homelink-1,
+  #aboutlink {
+    width: 10% !important;
+  }
+  #homelink-1:hover,
+  #aboutlink:hover {
+    width: 12% !important;
+  }
+
+  /*about*/
+  #about > article {
+    padding: 0 8% !important;
+  }
+  #about > article > h1 {
+    width: 67% !important;
+  }
+  #about > article > h5 {
+    bottom: 10% !important;
+  }
+  #about > article:nth-child(2) {
+    font-size: 8px;
+  }
+  #about > article:nth-child(2) > div {
+    width: auto !important;
+  }
+  #about > article:nth-child(2) > div > div {
+    width: 350px !important;
+    min-height: 450px !important;
+    padding: 30px !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+  #about > article:nth-child(2) > div > img {
+    display: none;
+  }
+  #about > article:nth-child(2) > div > div > div > p {
+    font-size: 1em !important;
+  }
+  /*case*/
+  #case p {
+    font-size: 2em !important;
+    text-indent: 30px !important;
+  }
+  #case a {
+    font-size: 2em !important;
+  }
+  #case ol {
+    padding-left: 12px !important;
+    font-size: 2em !important;
+  }
+  #case .ci {
+    margin: 25px auto 25px !important;
+  }
+  #case .c-i-c > img {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #case .c-i-c > img:first-child {
+    margin-bottom: 25px;
+  }
+  #case > #piece-cover > div > #title-tab {
+    width: 70% !important;
+    padding: 25px 15px 25px 25px !important;
+  }
+  #case > #piece-cover > div > #title-tab > h3 {
+    font-size: 1em !important;
+  }
+  #case > #piece-cover > div > #title-tab > h2,
+  #case > #introduction > #quick-info > #q-i-t > h2 {
+    font-size: 1.5em !important;
+  }
+  #case > #introduction,
+  #case > #process,
+  #case > #result {
+    padding: 50px 10% !important;
+  }
+  #case > #introduction > #quick-info > #q-i-t {
+    width: 100% !important;
+  }
+  #case > #introduction > #quick-info > #q-i-l {
+    display: none !important;
+  }
+}
+@media all and (min-width: 615px) and (max-width: 889px) {
+  body {
+    font-size: 8px;
+  }
+  #pan {
+    font-size: 10px;
+  }
+  #homelink-1,
+  #aboutlink {
+    width: 5% !important;
+  }
+  #homelink-1:hover,
+  #aboutlink:hover {
+    width: 8% !important;
+  }
+
+  #about > article {
+    padding: 0 10%;
+  }
+  #about > article:nth-child(2) > div > div {
+    width: 350px !important;
+    min-height: 450px !important;
+    padding: 30px !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+  #about > article:nth-child(2) > div > img {
+    display: none;
+  }
+  #about > article:nth-child(2) > div > div > div > p {
+    font-size: 1em !important;
+  }
+}
+@media all and (min-width: 890px) and (max-width: 1024px) {
+  body {
+    font-size: 10px;
+  }
+  #about > article:nth-child(2) > div > div {
+    width: 350px !important;
+    min-height: 450px !important;
+    padding: 30px !important;
+  }
+  #about > article:nth-child(2) > div > div {
+    width: 350px !important;
+    min-height: 450px !important;
+    padding: 30px !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+  #about > article:nth-child(2) > div > img {
+    display: none;
+  }
+  #about > article:nth-child(2) > div > div > div > p {
+    font-size: 1em !important;
+  }
+}
+@media all and (min-width: 1025px) and (max-width: 1310px) {
+  body {
+    font-size: 12px;
+  }
+  #about > article:nth-child(2) > div > div {
+    width: 350px !important;
+    min-height: 450px !important;
+    padding: 35px !important;
+  }
+  #about > article:nth-child(2) > div:first-child > img {
+    right: 0;
+    height: 95%;
+  }
+  #about > article:nth-child(2) > div:first-child > div {
+    left: 30%;
+    top: 100px;
+  }
+  #about > article:nth-child(2) > div:nth-child(2) > img {
+    left: 0;
+    height: 95%;
+  }
+  #about > article:nth-child(2) > div:nth-child(2) > div {
+    right: 30%;
+    top: 30px;
+  }
+  #about > article:nth-child(2) > div:nth-child(3) > img {
+    right: 0;
+    height: 75%;
+  }
+  #about > article:nth-child(2) > div:nth-child(3) > div {
+    left: 0;
+    top: 0;
+  }
+  #about > article:nth-child(2) > div > div > div > p {
+    font-size: 1em !important;
+  }
+}
+@media all and (min-width: 1310px) and (max-width: 1600px) {
+  body {
+    font-size: 14px;
+  }
+  #about > article:nth-child(2) > div > div {
+    width: 400px !important;
+    min-height: 500px !important;
+    padding: 40px !important;
+  }
+  #about > article:nth-child(2) > div:first-child > img {
+    right: 0;
+    height: 95%;
+  }
+  #about > article:nth-child(2) > div:first-child > div {
+    left: 30%;
+    top: 100px;
+  }
+  #about > article:nth-child(2) > div:nth-child(2) > img {
+    left: 0;
+    height: 95%;
+  }
+  #about > article:nth-child(2) > div:nth-child(2) > div {
+    right: 30%;
+    top: 80px;
+  }
+  #about > article:nth-child(2) > div:nth-child(3) > img {
+    right: 0;
+    height: 80%;
+  }
+  #about > article:nth-child(2) > div:nth-child(3) > div {
+    left: 0;
+    top: 20px;
+  }
+}
+@media all and (min-width: 1601px) and (max-width: 1700px) {
+  body {
+    font-size: 16px;
+  }
+  #about > article:nth-child(2) > div > div {
+    width: 450px !important;
+    min-height: 550px !important;
+    padding: 45px !important;
+  }
+  #about > article:nth-child(2) > div:first-child > img {
+    right: 0;
+    height: 95%;
+  }
+  #about > article:nth-child(2) > div:first-child > div {
+    left: 30%;
+    top: 150px;
+  }
+  #about > article:nth-child(2) > div:nth-child(2) > img {
+    left: 0;
+    height: 95%;
+  }
+  #about > article:nth-child(2) > div:nth-child(2) > div {
+    right: 30%;
+    top: 120px;
+  }
+  #about > article:nth-child(2) > div:nth-child(3) > img {
+    right: 0;
+    height: 80%;
+  }
+  #about > article:nth-child(2) > div:nth-child(3) > div {
+    left: 0;
+    top: 50px;
+  }
+}
+@media all and (min-width: 1700px) {
+  body {
+    font-size: 18px;
+  }
+  #about > article:nth-child(2) > div:first-child > img {
+    right: 0;
+    height: 95%;
+  }
+  #about > article:nth-child(2) > div:first-child > div {
+    left: 30%;
+    top: 150px;
+  }
+  #about > article:nth-child(2) > div:nth-child(2) > img {
+    left: 0;
+    height: 95%;
+  }
+  #about > article:nth-child(2) > div:nth-child(2) > div {
+    right: 30%;
+    top: 120px;
+  }
+  #about > article:nth-child(2) > div:nth-child(3) > img {
+    right: 0;
+    height: 80%;
+  }
+  #about > article:nth-child(2) > div:nth-child(3) > div {
+    left: 0;
+    top: 80px;
+  }
+}

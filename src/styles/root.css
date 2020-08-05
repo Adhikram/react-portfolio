@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Montserrat, Arial, sans-serif;
+}
+.App,
+#root {
+  height: 100vh;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+/*Header Tags*/
+h1 {
+  font-size: 12em;
+}
+h2 {
+  font-size: 10em;
+}
+h3 {
+  font-size: 8em;
+  font-weight: 600;
+}
+h4 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+h5 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+/*Generic Container Styles*/
+section {
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.2s ease-in-out;
+}
