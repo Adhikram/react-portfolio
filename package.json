@@ -1,11 +1,10 @@
 {
-  "homepage": "https://Adhikram.github.io/react-portfolio",
+  "homepage": "https://adhikram.github.io/",
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "Current Portfolio  built in React",
   "keywords": [],
   "main": "src/index.js",
-  
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
