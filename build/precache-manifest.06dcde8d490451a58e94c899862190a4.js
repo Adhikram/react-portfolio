@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/React_Portfolio/static/media/IMG_20191012_124520-min.45da1b4c.jpg"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/React_Portfolio/static/media/slick.ced611da.eot"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/React_Portfolio/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/React_Portfolio/static/media/slick.ced611da.eot"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
