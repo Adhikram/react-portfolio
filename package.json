@@ -1,49 +1,45 @@
 {
-  "homepage": "https://adhikram.github.io/",
-  "name": "react-portfolio",
-  "version": "1.0.0",
-  "description": "Current Portfolio  built in React",
-  "keywords": [],
-  "main": "src/index.js",
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@fortawesome/free-brands-svg-icons": "^5.14.0",
-    "@fortawesome/free-regular-svg-icons": "^5.14.0",
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "@fortawesome/react-fontawesome": "^0.1.11",
-    "font-awesome": "^4.7.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-router-dom": "5.0.0",
-    "react-scripts": "2.0.3",
-    "react-slick": "0.25.2",
-    "slick-carousel": "1.8.1",
-    "styled-components": "4.3.2"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adhikram/react-portfolio.git"
-  },
-  "author": "Adhikram Maitra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Adhikram/react-portfolio/issues"
-  }
+    "homepage": "https://adhikram.github.io/",
+    "name": "adhikram.github.io",
+    "version": "1.0.0",
+    "description": "Current Portfolio  built in React",
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.30",
+        "@fortawesome/free-brands-svg-icons": "^5.14.0",
+        "@fortawesome/free-regular-svg-icons": "^5.14.0",
+        "@fortawesome/free-solid-svg-icons": "^5.14.0",
+        "@fortawesome/react-fontawesome": "^0.1.11",
+        "font-awesome": "^4.7.0",
+        "react": "16.8.6",
+        "react-dom": "16.8.6",
+        "react-router-dom": "5.0.0",
+        "react-scripts": "2.0.3",
+        "react-slick": "0.25.2",
+        "slick-carousel": "1.8.1",
+        "styled-components": "4.3.2"
+    },
+    "devDependencies": {
+        "gh-pages": "^3.1.0"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -b master -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "author": "Adhikram Maitra"
 }
