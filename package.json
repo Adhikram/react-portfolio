@@ -4,7 +4,7 @@
   "description": "Current Portfolio rebuilt in React",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "http://Adhikram.github.io/React_Portfolio",
+  "homepage": "http://adhikram.github.io/React_Portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
