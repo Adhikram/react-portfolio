@@ -155,7 +155,7 @@ const About = ({ history }) => {
                 <Role>My current resume </Role>
                 <Time>SEPTEMBER</Time>
               </RoleTime>
-              <a href="https://drive.google.com/file/d/1rOCpKfXfIxZ1ThE4rkyjaqbH76Mev1Mf/view?usp=sharing"
+              <a href="https://docs.google.com/document/d/1iN_kQ_FPBL7c3FwxaGTB-RkPvPOY6WttuzFZyCKnNo0/edit?usp=sharing"
                target ="_blank" 
                rel="noopener noreferrer">
                  <FontAwesomeIcon icon={['fab','google']} spin size="lg" style={{ color: 'green' }} />
