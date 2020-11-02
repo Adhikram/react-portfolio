@@ -82,7 +82,7 @@ const About = ({ history }) => {
                 <Time>06/2017-Present</Time>
               </RoleTime>
               <Client>Computer Science &amp; Engineering</Client>
-              <DetailPoint>CGPA - 7.98 (Till Fifth Sem)</DetailPoint>
+              <DetailPoint>CGPA - 8.22</DetailPoint>
             </DetailBlock>
             <DetailBlock>
               <RoleTime>

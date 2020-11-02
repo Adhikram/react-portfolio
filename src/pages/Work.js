@@ -21,10 +21,6 @@ import {
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import {
-  Github
-} from "../components/Socials";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Work = ({ history }) => {
