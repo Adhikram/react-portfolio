@@ -104,7 +104,17 @@ const About = ({ history }) => {
             <ExperienceTitle>EXTRA THINGS</ExperienceTitle>
             <DetailBlock>
               <RoleTime>
-                <Role>Training and Placement Cell Representative, CSE2021</Role>
+                <Role>GOT NINJA OFFER THROUGH CODEVITA-9</Role>
+              </RoleTime>              
+            </DetailBlock>
+            <DetailBlock>
+              <RoleTime>
+                <Role>5* ON C++,PROBLEM SOLVING( HACKERRANK )</Role>
+              </RoleTime>              
+            </DetailBlock>
+            <DetailBlock>
+              <RoleTime>
+                <Role>Training and Placement Cell Representative, CSE2021 </Role>
                 <Time>2018</Time>
               </RoleTime>
               <Client></Client>
@@ -136,10 +146,22 @@ const About = ({ history }) => {
                 <Time>11/2019</Time>
               </RoleTime>              
               <a href="https://drive.google.com/file/d/1-H7L2VBDNP42Am_hT00ZXAMz3dnl8e8z/view?usp=sharing" target ="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab','google']} spin size="lg" style={{ color: 'red' }} /></a>
-
-              
-
             </DetailBlock>
+          </ExperienceContainer>
+          <ExperienceContainer>
+          <ExperienceTitle>Resume</ExperienceTitle>
+          <DetailBlock>
+              <RoleTime>
+                <Role>My current resume </Role>
+                <Time>SEPTEMBER</Time>
+              </RoleTime>
+              <a href="https://drive.google.com/file/d/1rOCpKfXfIxZ1ThE4rkyjaqbH76Mev1Mf/view?usp=sharing"
+               target ="_blank" 
+               rel="noopener noreferrer">
+                 <FontAwesomeIcon icon={['fab','google']} spin size="lg" style={{ color: 'green' }} />
+                 </a>
+            </DetailBlock>
+
           </ExperienceContainer>
         </Container>
       </Body>
