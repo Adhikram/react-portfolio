@@ -151,6 +151,10 @@ export const Title = styled(LargeHead)`
   left: 100%;
   animation: ${loadHeaders} 0.3s ease-in 0.1s 1 forwards;
   transform: translateY(-40%);
+@media(max-width:480px){
+    left:50%;
+    font-size:6em;
+  }
 `;
 
 export const Caption = styled(TinyHead)`
